@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#632828">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" />
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="عميل جديد"
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="20sp"
+            android:verticalScrollbarPosition="left" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginLeft="0dp"
+            android:id="@+id/code"
+
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#0186FD"
+            android:fontFamily="casual"
+            android:hint="الكود"
+            android:shadowColor="#3F51B5"
+            android:textAlignment="textStart"
+            android:textColor="#02141C"
+            android:textColorHighlight="@color/teal_700"
+            android:textColorHint="#054463"
+            android:textColorLink="@color/teal_700"
+            android:textSize="18sp"></EditText>
+
+
+        <EditText
+            android:id="@+id/clientName"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#0186FD"
+            android:fontFamily="casual"
+            android:hint="اسم العميل"
+            android:shadowColor="#3F51B5"
+            android:textAlignment="textStart"
+            android:textColor="#02141C"
+            android:textColorHighlight="@color/teal_700"
+            android:textColorHint="#054463"
+            android:textColorLink="@color/teal_700"
+            android:textSize="18sp"></EditText>
+
+
+        <EditText
+            android:id="@+id/mobile"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#0186FD"
+            android:fontFamily="casual"
+            android:hint="رقم المحمول"
+            android:inputType="phone"
+            android:shadowColor="#3F51B5"
+            android:textAlignment="textStart"
+            android:textColor="#02141C"
+            android:textColorHighlight="@color/teal_700"
+            android:textColorHint="#054463"
+            android:textColorLink="@color/teal_700"
+
+            android:textSize="18sp"></EditText>
+
+        <Button
+            android:id="@+id/Insert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="حفظ" />
+
+    </LinearLayout>
+
+</RelativeLayout>
